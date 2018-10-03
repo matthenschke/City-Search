@@ -4,17 +4,6 @@ import './App.css';
 
 let url = "http://ctp-zip-api.herokuapp.com/city/"; //url to fetch api
 
- /*<div className = "area-info border rounded">
-    <div className = "area-info-header">
-    {props.area.LocationText}
-    </div>
-    <ul style = {{top : "40px"}}>
-      <li>{"State: " + props.area.State}</li>
-      <li>{"Location: (" + props.area.Lat + ", " + props.area.Long + ")"}</li>
-      <li>{"Population(estimated): " + props.area.EstimatedPopulation}</li>
-      <li>{"Total Wages: " + props.area.TotalWages}</li>
-    </ul>
-    </div>*/
 
 //Component that will display the zips for each city
 function ZipCode(props) {
